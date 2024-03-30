@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       
+    </style>
+    <title>Student Information</title>
+    <link rel="stylesheet" href="h.css"> 
+</head>
+<body>
+    <h1 >Fill according to the given instruction to Check Eligibility</h1>
+    
+        <label  for="certificateType">Select degree Type:</label>
+        <select name="certificateType" id="degree_type"> 
+            <option value="BE">BE degree</option>
+            <option value="BTech">BTech degree</option>
+            <option value="Bsc">Bsc degree</option>
+            <option value="Bcom">Bcom degree</option>
+        </select>
+        <br><br>
+        <label  for="certificateFile">Choose File:</label>
+        <input type="file" name="certificateFile" id="certificateFile">
+        <br><br>
+        <input type="submit" name="submit" value="Upload">
+        <br>
+    </form><br>
+    
+        <label  for="age">Age:</label>
+        <input type="text" name="age" id="age" required><br><br>
+        
+        <label for="income">Annual Income:</label>
+        <input type="text" name="income" id="income" required><br><br>
+        
+        <label  for="cgpa">CGPA:</label>
+        <input type="text" name="cgpa" id="cgpa" required><br><br>
+        
+        <label  for="caste">Category/Caste:</label>
+        <select name="caste" id="caste" required>
+            <option value="general">General</option>
+            <option value="obc">OBC</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+        </select><br><br>
+      
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

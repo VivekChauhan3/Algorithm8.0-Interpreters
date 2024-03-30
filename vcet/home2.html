@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scholarship Portal Home</title>
+    <link rel="stylesheet" href="homecss.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class = "logo"> <img src="logo.jpg" alt="logo"></div>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="index1.html">Sign Up</a></li>
+            <li><a href="scholarship_results.html">Scholarship Results</a></li>
+            <li><a href="h.html">student Information</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+            <div class = "search-bar">
+                <input type="text" class="search-input" placeholder="Search Scholarship...">
+                <button class="search-button">Search</button>
+            </div>
+        </nav>
+            <div class="branch">
+                <li> <a href="be.html"><button class = "btn">Engineering</button></a></li><br>
+                <li><a href="me.html"><button class = "btn">Medical</button></a></li><br>
+                <li><a href="bsc.html"><button class = "btn">BSC</button></a></li><br>
+            </div>
+            <div class="dashboard">
+                <h2>Contact Details</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <span class="contact-name">xyz</span><br>
+                        <span class="contact-email">Schoolarshiptips@gmail.com</span><br>
+                        <span class="contact-phone">000-456-7890</span>
+                    </li>
+                    <li class="contact-item">
+                        <span class="contact-name">abc</span><br>
+                        <span class="contact-email">abc@.com</span><br>
+                        <span class="contact-phone">987-654-3210</span>
+                    </li>
+                  
+                </ul>
+            </div>
+            <div class="splash-screen">
+                <div class="splash-content">
+                    <h1>Welcome to Scholar Tips</h1>
+                    <p>Please wait...</p>
+                </div>
+            </div>
+        
+        
+            
+            <script>
+                
+                window.addEventListener('load', function () {
+                    setTimeout(function () {
+                        document.querySelector('.splash-screen').style.display = 'none';
+                    }, 2000);
+                });
+            </script>
+    <footer>
+        &copy; 2023 Scholar Tips
+    </footer>
+ 
+</body>
+</html>
