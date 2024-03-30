@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+   
+    <form action="process_signup.php" method="POST">
+        <div class="logo">
+            <img src="logo.jpg" alt="logo">
+           </div>
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">
+        <br><br>
+        <label><b>Email<br>
+        </b>
+        </label>
+        <input type="text" name="Email" id="Email" placeholder="Email">
+        <br><br>
+      
+        <label><b>Age<br>
+        </b>
+        </label>
+        
+        <input type="number"name="Age" id="Age"  min="12" max="100"  />
+        <br><br>
+        
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+        <input type="button" name="sign" id="sign" value="Sign Up">
+        <br><br>
+        <div class="log"> have account &nbsp;&nbsp;<a href="index.html">Log In</a>
+        </div> 
+    </form>
+</body>
+</html>
